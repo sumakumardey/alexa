@@ -13,7 +13,7 @@ gem 'sqlite3'
 # Use Puma as the app server
 # gem 'puma', '~> 3.7'
 gem 'unicorn'
-gem 'alexa_rubykit'
+gem 'alexa_rubykit', :require => true
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
